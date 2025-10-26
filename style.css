@@ -172,7 +172,16 @@ footer {
     }
 
     .project-img {
-        width: 12rem;
-        height: 6rem;
+        width: 90vw;
+        /* Responsive width: 90% of viewport */
+        height: auto;
+        /* Automatically adjusts height */
+        max-width: 100%;
+        /* Prevents overflow */
+        display: block;
+        /* Ensures image is block-level */
+        margin: 0 auto;
+        /* Centers the image horizontally */
     }
 }
+
